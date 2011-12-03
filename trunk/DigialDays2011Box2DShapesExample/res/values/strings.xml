@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Box2D Shapes DigitalDays2011</string>
+    <string name="draw">Draw</string>
+    <string name="raycast">Raycast</string>
+    <string name="clear">Clear</string>
+        
+</resources>
