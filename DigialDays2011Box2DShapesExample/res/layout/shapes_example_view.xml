@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <android.gesture.GestureOverlayView
+        android:id="@+id/gesture_overlay_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gestureStrokeType="multiple" />
+
+    <pl.mg6.digitaldays2011.box2d.shapes.ShapesDrawingView
+        android:id="@+id/shapes_drawing_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/toggle_draw_raycast"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:onClick="onToggleDrawRaycastClick"
+        android:text="@string/raycast" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:onClick="onClearClick"
+        android:text="@string/clear" />
+
+</FrameLayout>
